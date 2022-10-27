@@ -1,0 +1,132 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+#css-zen-garden {
+    background-size: cover;
+    background-image: url(b2.jpeg);
+}
+
+header {
+    border: 3px solid green;
+    border-radius: 10px;
+    background: rgba(114, 175, 114, 0.711);
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+    width: 70%;
+}
+
+footer {
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgba(127, 208, 132, 0.184);
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.preamble {
+    border: 3px solid green;
+    border-radius: 10px;
+    background: rgba(114, 175, 114, 0.711);
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+    width: 50%;
+}
+
+
+#zen-supporting {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 3%;
+}
+
+li {
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: green; 
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+a:hover {
+    color: white;
+    background-color: green;
+}
+
+.summary {
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgba(127, 208, 132, 0.184);
+    margin: 5px;
+    padding: 5px;
+}
+
+.select {
+    text-align: center;
+}
+
+.archives {
+    text-align: center;
+}
+
+.resources {
+    text-align: center;
+}
+
+
+banner {
+    border: 2px solid;
+    padding: 2px;
+}
+
+.design-selection {
+    width: 25em;
+    border: 10px solid green;
+    border-radius: 20px;
+    background: rgba(0, 128, 0, 0.462);
+}
+
+.design-archives {
+    width: 25em;
+    border: 10px solid green;
+    border-radius: 20px;
+    background: rgba(0, 128, 0, 0.462);
+}
+
+.zen-resources {
+    width: 25em;
+    border: 10px solid green;
+    border-radius: 30px;
+    background: rgba(0, 128, 0, 0.462);
+}
+
+
+.requirements {
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 2%;
+    text-align: justify;
+}
+
